@@ -1,0 +1,64 @@
+{
+	"nodes":[
+		{"id":"8328d97b96a84012","type":"group","x":-200,"y":-80,"width":760,"height":760,"label":"Untitled group"},
+		{"id":"c353148a8ef3325f","type":"file","file":"part1/why this is happening.md","ratio":1,"x":-740,"y":-560,"width":480,"height":480},
+		{
+			"id":"bd09112d6a88e14e",
+			"type":"text",
+			"text":"# good thing",
+			"styleAttributes":{
+				"shape":null
+			},
+			"x":-600,
+			"y":-800,
+			"width":200,
+			"height":80
+		},
+		{"id":"9439153c7ed0a794","type":"file","file":"part1/test1.md","x":-104,"y":-40,"width":569,"height":260},
+		{"id":"492614316a52f2d2","type":"file","file":"part1/test2.md","ratio":1.7777777777777777,"x":-152,"y":260,"width":665,"height":374},
+		{
+			"id":"4a25faadd27f31b1",
+			"type":"text",
+			"text":"bad outcome",
+			"styleAttributes":{},
+			"x":720,
+			"y":90,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{
+			"id":"a4beaa47498917bf",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c353148a8ef3325f",
+			"fromSide":"bottom",
+			"toNode":"8328d97b96a84012",
+			"toSide":"left"
+		},
+		{
+			"id":"37f60d4bedcd456b",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"bd09112d6a88e14e",
+			"fromSide":"bottom",
+			"toNode":"c353148a8ef3325f",
+			"toSide":"top"
+		},
+		{
+			"id":"724d53da1393c255",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"8328d97b96a84012",
+			"fromSide":"right",
+			"toNode":"4a25faadd27f31b1",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

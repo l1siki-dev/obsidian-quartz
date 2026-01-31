@@ -1,0 +1,79 @@
+{
+	"nodes":[
+		{"id":"41377fbae8e8ec34","type":"group","x":-800,"y":-180,"width":980,"height":440,"label":"Why good intention ended up bad outcome"},
+		{"id":"e0658dd69b4132f0","type":"file","file":"part1/why good become bad.canvas","x":-506,"y":-160,"width":392,"height":400},
+		{
+			"id":"5dab28520d11c767",
+			"type":"text",
+			"text":"good things",
+			"styleAttributes":{},
+			"x":-780,
+			"y":10,
+			"width":255,
+			"height":60
+		},
+		{
+			"id":"ac562327296dbde0",
+			"type":"text",
+			"text":"bad outcome",
+			"styleAttributes":{},
+			"x":-95,
+			"y":10,
+			"width":255,
+			"height":60
+		},
+		{
+			"id":"3d38fdbe89771cf6",
+			"type":"text",
+			"text":"end of the world",
+			"styleAttributes":{},
+			"x":440,
+			"y":-400,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fef1035baa73e0f3",
+			"type":"text",
+			"text":"why world is failing?",
+			"styleAttributes":{},
+			"x":-1100,
+			"y":-740,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{
+			"id":"57aaa1b99807e40e",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"5dab28520d11c767",
+			"fromSide":"right",
+			"toNode":"e0658dd69b4132f0",
+			"toSide":"left"
+		},
+		{
+			"id":"5a5131ba33ce8fd1",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"e0658dd69b4132f0",
+			"fromSide":"right",
+			"toNode":"ac562327296dbde0",
+			"toSide":"left"
+		},
+		{
+			"id":"bec3572e6622a1c0",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromNode":"41377fbae8e8ec34",
+			"fromSide":"right",
+			"toNode":"3d38fdbe89771cf6",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

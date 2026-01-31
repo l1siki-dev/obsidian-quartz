@@ -1,0 +1,3 @@
+It looks like you’ve nailed the "Pro" setup for publishing without the manual labor. The "Web Export" plugin you remembered is likely **Webpage HTML Export**—which is currently the only reliable way to get a functional, interactive **Canvas** onto a website.
+
+Here is how your two choices (Quartz vs. Digital Garden) stack up for your "Book" project, especially since you want that Canvas integration.
